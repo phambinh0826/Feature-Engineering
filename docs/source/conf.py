@@ -41,7 +41,6 @@ epub_show_urls = 'footnote'
 language = 'vi'
 
 # -- Options for LaTeX output
-latex_engine = 'xelatex'
 latex_elements = {
     'fontpkg': r'''
 \usepackage{fontspec}
@@ -49,26 +48,9 @@ latex_elements = {
 \setsansfont{Arial}
 \setmonofont{Courier New}
 ''',
-    'babel': '',
-    'polyglossia': r'''
-\usepackage{polyglossia}
-\setdefaultlanguage{vietnamese}
-\setotherlanguage{english}
-\newfontfamily\vnfont{Times New Roman}
-\newcommand{\textvn}[1]{{\vnfont #1}}
-''',
-    'preamble': r'''
-\usepackage{titlesec}
-\titleformat{\chapter}[hang]{\Large\bfseries}{\thechapter}{1em}{}
-\usepackage{microtype} % Cải thiện hiển thị font
-\renewcommand{\baselinestretch}{1.2} % Giãn dòng tránh mất chữ
-\XeTeXlinebreaklocale "vn"
-\XeTeXlinebreakskip = 0pt plus 1pt
-''',
 }
 
 # -- Options for PDF output
-pdf_documents = [('index', 'FeatureEngineering', 'Feature Engineering in Machine Learning', 'Bình Phạm')]
 pdf_language = "vi"
 pdf_fit_mode = "shrink"
 pdf_stylesheets = ['sphinx', 'kerning', 'a4', 'a4.tstyle']
