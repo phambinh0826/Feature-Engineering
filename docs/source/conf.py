@@ -1,5 +1,8 @@
 # Configuration file for the Sphinx documentation builder.
 import sphinx_rtd_theme
+import os
+print("XeLaTeX path:", os.popen("which xelatex").read().strip())
+print("Latexmk path:", os.popen("which latexmk").read().strip())
 
 # -- Project information
 project = 'Feature Engineering in Machine Learning'
