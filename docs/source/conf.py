@@ -44,7 +44,7 @@ language = 'vi'
 pdf_documents = [('index', 'FeatureEngineering', 'Feature Engineering in Machine Learning', 'Bình Phạm')]
 pdf_language = "vi"
 pdf_fit_mode = "shrink"
-pdf_stylesheets = ['sphinx', 'kerning', 'a4', 'dejavusans']
+pdf_stylesheets = ['sphinx', 'kerning', 'a4', 'a4.tstyle']
 pdf_break_level = 1
 pdf_verbosity = 0
 pdf_use_index = True
@@ -58,9 +58,20 @@ latex_engine = 'xelatex'
 latex_elements = {
     'fontpkg': r'''
 \usepackage{fontspec}
-\setmainfont{DejaVu Serif}
-\setsansfont{DejaVu Sans}
-\setmonofont{DejaVu Sans Mono}
+\setmainfont{Times New Roman}
+\setsansfont{Arial}
+\setmonofont{Courier New}
 ''',
-    'babel': '\\usepackage[vietnamese]{babel}',
+    'babel': '',
+    'polyglossia': r'''
+\usepackage{polyglossia}
+\setdefaultlanguage{vietnamese}
+\setotherlanguage{english}
+\newfontfamily\vnfont{Times New Roman}
+\newcommand{\textvn}[1]{{\vnfont #1}}
+''',
+    'preamble': r'''
+\usepackage{titlesec}
+\titleformat{\chapter}[hang]{\Large\bfseries}{\thechapter}{1em}{}
+''',
 }
