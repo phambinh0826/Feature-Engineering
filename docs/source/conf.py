@@ -64,3 +64,17 @@ pdf_use_modindex = True
 pdf_use_coverpage = True
 pdf_cover_template = 'sphinxcover.tmpl'
 pdf_default_dpi = 72
+
+latex_engine = 'xelatex'
+latex_elements = {
+    'fontpkg': r'''
+\usepackage{fontspec}
+\setmainfont{DejaVu Serif}
+\setsansfont{DejaVu Sans}
+\setmonofont{DejaVu Sans Mono}
+'''
+}
+
+latex_elements = {
+    'babel': '\\usepackage[vietnamese]{babel}',
+}
