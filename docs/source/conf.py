@@ -41,24 +41,25 @@ language = 'vi'
 
 # -- Options for LaTeX output
 latex_engine = 'xelatex'
-latex_documents = [
-    ('index', 'FeatureEngineering.tex', 'Feature Engineering in Machine Learning',
-     'Bình Phạm', 'manual'),
-]
-
 latex_elements = {
     'fontpkg': r'''
 \usepackage{fontspec}
-\setmainfont{DejaVu Serif}
-\setsansfont{DejaVu Sans}
-\setmonofont{DejaVu Sans Mono}
+\setmainfont{Times New Roman}
+\setsansfont{Arial}
+\setmonofont{Courier New}
 ''',
-    'babel': r'''
-\usepackage[vietnamese]{babel}
+    'babel': '',
+    'polyglossia': r'''
+\usepackage{polyglossia}
+\setdefaultlanguage{vietnamese}
+\setotherlanguage{english}
+\newfontfamily\vnfont{Times New Roman}
+\newcommand{\textvn}[1]{{\vnfont #1}}
 ''',
     'preamble': r'''
 \usepackage{titlesec}
 \titleformat{\chapter}[hang]{\Large\bfseries}{\thechapter}{1em}{}
+\usepackage{microtype}
 \renewcommand{\baselinestretch}{1.2}
 \XeTeXlinebreaklocale "vn"
 \XeTeXlinebreakskip = 0pt plus 1pt
