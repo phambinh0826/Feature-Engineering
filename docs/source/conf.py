@@ -2,7 +2,7 @@
 import sphinx_rtd_theme
 
 # -- Project information
-project = 'Intermediate Machine Learning'
+project = 'Feature Engineering in Machine Learning'
 copyright = '2025, Bình Phạm'
 author = 'Bình Phạm'
 
