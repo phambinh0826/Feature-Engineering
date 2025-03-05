@@ -63,8 +63,4 @@ latex_elements = {
 \XeTeXlinebreaklocale "vn"
 \XeTeXlinebreakskip = 0pt plus 1pt
 ''',
-    'latexmkrc': r'''
-$pdflatex = 'xelatex %O %S';
-$bibtex_use = 2;
-''',
 }
