@@ -48,4 +48,18 @@ highlight_language = 'python3'
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
 
+# Set the language to Vietnamese
 language = 'vi'
+
+# -- Options for PDF output
+pdf_documents = [('index', 'FeatureEngineering', 'Feature Engineering in Machine Learning', 'Bình Phạm')]
+pdf_language = "vi"
+pdf_fit_mode = "shrink"
+pdf_stylesheets = ['sphinx', 'kerning', 'a4']
+pdf_break_level = 1
+pdf_verbosity = 0
+pdf_use_index = True
+pdf_use_modindex = True
+pdf_use_coverpage = True
+pdf_cover_template = 'sphinxcover.tmpl'
+pdf_default_dpi = 72
