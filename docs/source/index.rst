@@ -46,13 +46,13 @@ Contents
    4. clustering-with-k-means.ipynb
 
 .. toctree::
-   :caption: Lecture 5 - XGBoost
+   :caption: Lecture 5 - Principal component analysis
    :maxdepth: 1
 
-   xgboost.ipynb
+   5. principal-component-analysis.ipynb
 
 .. toctree::
-   :caption: Lecture 6 - Data-Leakage
+   :caption: Lecture 6 - Target encoding
    :maxdepth: 1
 
-   data-leakage.ipynb
+   6. target-encoding.ipynb
