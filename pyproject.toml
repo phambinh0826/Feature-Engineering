@@ -1,0 +1,8 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "Intermediate Machine Learning"
+authors = [{name = "Bình Phạm", email = "ptcb1012588646@gmail.com"}]
+dynamic = ["version", "description"]
