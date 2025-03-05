@@ -28,6 +28,11 @@ intersphinx_mapping = {
     'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
 }
 
+intersphinx_mapping = {
+    'python': ('https://docs.python.org/3/', None),
+    'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
+}
+
 # Add any paths that contain templates here, relative to this directory.
 # The template links to a custom style css to increase the width of displayed content
 templates_path = ['_templates']
