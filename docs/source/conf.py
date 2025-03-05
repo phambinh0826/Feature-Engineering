@@ -21,7 +21,7 @@ extensions = [
     'sphinx_rtd_theme',
     'sphinx_copybutton',
     'sphinx_gallery.load_style',
-    'rst2pdf.pdfbuilder',  # Thêm phần mở rộng này để hỗ trợ xuất PDF
+    'rst2pdf.pdfbuilder',
 ]
 
 intersphinx_mapping = {
@@ -29,24 +29,12 @@ intersphinx_mapping = {
     'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
 }
 
-intersphinx_mapping = {
-    'python': ('https://docs.python.org/3/', None),
-    'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
-}
-
-# Add any paths that contain templates here, relative to this directory.
-# The template links to a custom style css to increase the width of displayed content
 templates_path = ['_templates']
 
 # -- Options for HTML output
 html_static_path = ['_static']
-
-# -- The theme to use for HTML and HTML Help pages.  See the documentation for a list of builtin themes.
 html_theme = 'sphinx_rtd_theme'
-
 highlight_language = 'python3'
-
-# -- Options for EPUB output
 epub_show_urls = 'footnote'
 
 # Set the language to Vietnamese
@@ -56,7 +44,7 @@ language = 'vi'
 pdf_documents = [('index', 'FeatureEngineering', 'Feature Engineering in Machine Learning', 'Bình Phạm')]
 pdf_language = "vi"
 pdf_fit_mode = "shrink"
-pdf_stylesheets = ['sphinx', 'kerning', 'a4']
+pdf_stylesheets = ['sphinx', 'kerning', 'a4', 'dejavusans']
 pdf_break_level = 1
 pdf_verbosity = 0
 pdf_use_index = True
@@ -65,6 +53,7 @@ pdf_use_coverpage = True
 pdf_cover_template = 'sphinxcover.tmpl'
 pdf_default_dpi = 72
 
+# -- Options for LaTeX output
 latex_engine = 'xelatex'
 latex_elements = {
     'fontpkg': r'''
@@ -72,9 +61,6 @@ latex_elements = {
 \setmainfont{DejaVu Serif}
 \setsansfont{DejaVu Sans}
 \setmonofont{DejaVu Sans Mono}
-'''
-}
-
-latex_elements = {
+''',
     'babel': '\\usepackage[vietnamese]{babel}',
 }
