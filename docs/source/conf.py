@@ -48,6 +48,22 @@ latex_elements = {
 \setsansfont{Arial}
 \setmonofont{Courier New}
 ''',
+    'babel': '',
+    'polyglossia': r'''
+\usepackage{polyglossia}
+\setdefaultlanguage{vietnamese}
+\setotherlanguage{english}
+\newfontfamily\vnfont{Times New Roman}
+\newcommand{\textvn}[1]{{\vnfont #1}}
+''',
+    'preamble': r'''
+\usepackage{titlesec}
+\titleformat{\chapter}[hang]{\Large\bfseries}{\thechapter}{1em}{}
+\usepackage{microtype}
+\renewcommand{\baselinestretch}{1.2}
+\XeTeXlinebreaklocale "vn"
+\XeTeXlinebreakskip = 0pt plus 1pt
+''',
 }
 
 # -- Options for PDF output
