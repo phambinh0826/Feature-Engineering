@@ -73,5 +73,7 @@ latex_elements = {
     'preamble': r'''
 \usepackage{titlesec}
 \titleformat{\chapter}[hang]{\Large\bfseries}{\thechapter}{1em}{}
+\usepackage{microtype} % Cải thiện hiển thị font
+\renewcommand{\baselinestretch}{1.2} % Giãn dòng tránh mất chữ
 ''',
 }
