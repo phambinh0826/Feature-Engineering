@@ -21,7 +21,6 @@ extensions = [
     'sphinx_rtd_theme',
     'sphinx_copybutton',
     'sphinx_gallery.load_style',
-    'rst2pdf.pdfbuilder',
 ]
 
 intersphinx_mapping = {
@@ -41,30 +40,32 @@ epub_show_urls = 'footnote'
 language = 'vi'
 
 # -- Options for LaTeX output
+latex_engine = 'xelatex'
+latex_documents = [
+    ('index', 'FeatureEngineering.tex', 'Feature Engineering in Machine Learning',
+     'Bình Phạm', 'manual'),
+]
+
 latex_elements = {
     'fontpkg': r'''
 \usepackage{fontspec}
-\setmainfont{Times New Roman}
-\setsansfont{Arial}
-\setmonofont{Courier New}
+\setmainfont{DejaVu Serif}
+\setsansfont{DejaVu Sans}
+\setmonofont{DejaVu Sans Mono}
 ''',
-    'babel': '',
-    'polyglossia': r'''
-\usepackage{polyglossia}
-\setdefaultlanguage{vietnamese}
-\setotherlanguage{english}
-\newfontfamily\vnfont{Times New Roman}
-\newcommand{\textvn}[1]{{\vnfont #1}}
+    'babel': r'''
+\usepackage[vietnamese]{babel}
 ''',
     'preamble': r'''
 \usepackage{titlesec}
 \titleformat{\chapter}[hang]{\Large\bfseries}{\thechapter}{1em}{}
-\usepackage{microtype}
 \renewcommand{\baselinestretch}{1.2}
 \XeTeXlinebreaklocale "vn"
 \XeTeXlinebreakskip = 0pt plus 1pt
 ''',
 }
+
+
 
 # -- Options for PDF output
 pdf_language = "vi"
