@@ -1,0 +1,7 @@
+sphinx
+sphinx-rtd-theme
+readthedocs-sphinx-ext
+nbsphinx
+ipython
+sphinx-gallery
+sphinx-copybutton
