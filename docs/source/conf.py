@@ -40,19 +40,6 @@ epub_show_urls = 'footnote'
 # Set the language to Vietnamese
 language = 'vi'
 
-# -- Options for PDF output
-pdf_documents = [('index', 'FeatureEngineering', 'Feature Engineering in Machine Learning', 'Bình Phạm')]
-pdf_language = "vi"
-pdf_fit_mode = "shrink"
-pdf_stylesheets = ['sphinx', 'kerning', 'a4', 'a4.tstyle']
-pdf_break_level = 1
-pdf_verbosity = 0
-pdf_use_index = True
-pdf_use_modindex = True
-pdf_use_coverpage = True
-pdf_cover_template = 'sphinxcover.tmpl'
-pdf_default_dpi = 72
-
 # -- Options for LaTeX output
 latex_engine = 'xelatex'
 latex_elements = {
@@ -75,5 +62,20 @@ latex_elements = {
 \titleformat{\chapter}[hang]{\Large\bfseries}{\thechapter}{1em}{}
 \usepackage{microtype} % Cải thiện hiển thị font
 \renewcommand{\baselinestretch}{1.2} % Giãn dòng tránh mất chữ
+\XeTeXlinebreaklocale "vn"
+\XeTeXlinebreakskip = 0pt plus 1pt
 ''',
 }
+
+# -- Options for PDF output
+pdf_documents = [('index', 'FeatureEngineering', 'Feature Engineering in Machine Learning', 'Bình Phạm')]
+pdf_language = "vi"
+pdf_fit_mode = "shrink"
+pdf_stylesheets = ['sphinx', 'kerning', 'a4', 'a4.tstyle']
+pdf_break_level = 1
+pdf_verbosity = 0
+pdf_use_index = True
+pdf_use_modindex = True
+pdf_use_coverpage = True
+pdf_cover_template = 'sphinxcover.tmpl'
+pdf_default_dpi = 72
