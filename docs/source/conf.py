@@ -64,17 +64,3 @@ latex_elements = {
 \XeTeXlinebreakskip = 0pt plus 1pt
 ''',
 }
-
-
-
-# -- Options for PDF output
-pdf_language = "vi"
-pdf_fit_mode = "shrink"
-pdf_stylesheets = ['sphinx', 'kerning', 'a4', 'a4.tstyle']
-pdf_break_level = 1
-pdf_verbosity = 0
-pdf_use_index = True
-pdf_use_modindex = True
-pdf_use_coverpage = True
-pdf_cover_template = 'sphinxcover.tmpl'
-pdf_default_dpi = 72
