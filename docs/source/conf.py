@@ -46,6 +46,12 @@ latex_documents = [
      'Bình Phạm', 'manual'),
 ]
 
+latex_engine = 'xelatex'
+latex_documents = [
+    ('index', 'FeatureEngineering.tex', 'Feature Engineering in Machine Learning',
+     'Bình Phạm', 'manual'),
+]
+
 latex_elements = {
     'fontpkg': r'''
 \usepackage{fontspec}
@@ -62,5 +68,9 @@ latex_elements = {
 \renewcommand{\baselinestretch}{1.2}
 \XeTeXlinebreaklocale "vn"
 \XeTeXlinebreakskip = 0pt plus 1pt
+''',
+    'latexmkrc': r'''
+$pdflatex = 'xelatex %O %S';
+$bibtex_use = 2;
 ''',
 }
