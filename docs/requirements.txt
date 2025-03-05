@@ -5,4 +5,3 @@ nbsphinx
 ipython
 sphinx-gallery
 sphinx-copybutton
-rst2pdf
