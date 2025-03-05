@@ -7,7 +7,6 @@ sphinx-gallery
 sphinx-copybutton
 sphinxcontrib-bibtex
 rst2pdf
-latexmk
 polyglossia
 titlesec
 microtype
