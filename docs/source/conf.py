@@ -42,7 +42,7 @@ templates_path = ['_templates']
 html_theme = 'sphinx_rtd_theme'
 
 # Chỉ định thư mục chứa các tệp tĩnh
-html_static_path = ['_static', 'source']  # Thêm thư mục source nếu ảnh nằm trong đó
+html_static_path = ['_static']
 
 highlight_language = 'python3'
 
