@@ -11,8 +11,8 @@ Bạn sẽ học cách:
 - **Phân rã phương sai của tập dữ liệu thành các đặc trưng chính** bằng **phân tích thành phần chính (Principal Component Analysis - PCA)**.
 
 Các bài thực hành sẽ dần xây dựng thành một **notebook hoàn chỉnh**:  
-👉 **[Feature Engineering for House Prices](http://www.kaggle.com/ryanholbrook/feature-engineering-for-house-prices)**  
-Notebook này sẽ áp dụng **tất cả các kỹ thuật trên** để tham gia vào cuộc thi **[House Prices Getting Started](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)** trên Kaggle.  
+👉 [Feature Engineering for House Prices](http://www.kaggle.com/ryanholbrook/feature-engineering-for-house-prices)
+Notebook này sẽ áp dụng **tất cả các kỹ thuật trên** để tham gia vào cuộc thi [House Prices Getting Started](https://www.kaggle.com/c/house-prices-advanced-regression-techniques) trên Kaggle.  
 
 Sau khi hoàn thành khóa học này, bạn sẽ có **nhiều ý tưởng** để **cải thiện hiệu suất mô hình** hơn nữa!
 
