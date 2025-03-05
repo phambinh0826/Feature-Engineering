@@ -21,6 +21,7 @@ extensions = [
     'sphinx_rtd_theme',
     'sphinx_copybutton',
     'sphinx_gallery.load_style',
+    'rst2pdf.pdfbuilder',  # Thêm phần mở rộng này để hỗ trợ xuất PDF
 ]
 
 intersphinx_mapping = {
