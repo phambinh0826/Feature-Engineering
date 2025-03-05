@@ -46,12 +46,6 @@ latex_documents = [
      'Bình Phạm', 'manual'),
 ]
 
-latex_engine = 'xelatex'
-latex_documents = [
-    ('index', 'FeatureEngineering.tex', 'Feature Engineering in Machine Learning',
-     'Bình Phạm', 'manual'),
-]
-
 latex_elements = {
     'fontpkg': r'''
 \usepackage{fontspec}
