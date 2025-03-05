@@ -41,6 +41,9 @@ templates_path = ['_templates']
 # -- The theme to use for HTML and HTML Help pages.  See the documentation for a list of builtin themes.
 html_theme = 'sphinx_rtd_theme'
 
+# Chỉ định thư mục chứa các tệp tĩnh
+html_static_path = ['_static']
+
 highlight_language = 'python3'
 
 # -- Options for EPUB output
