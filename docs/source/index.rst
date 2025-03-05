@@ -1,57 +1,49 @@
-**Chào mừng bạn đến với khóa học Intermediate Machine Learning!**
-==================================================================
+**Chào mừng đến với Feature Engineering!**
+==========================================
 
-Nếu bạn đã có nền tảng về *machine learning* và muốn học cách nhanh chóng cải thiện chất lượng mô hình của mình, thì bạn đang ở đúng nơi! Trong khóa học này, bạn sẽ nâng cao kiến thức của mình bằng cách học cách:
+Trong khóa học này, bạn sẽ tìm hiểu về một trong những bước quan trọng nhất trong quá trình xây dựng một mô hình học máy hiệu quả: **Feature Engineering** (Xây dựng đặc trưng).  
 
-- Xử lý các loại dữ liệu thường gặp trong thực tế như **missing values** (*giá trị khuyết*), **categorical variables** (*biến phân loại*),
+Bạn sẽ học cách:
+- **Xác định đặc trưng quan trọng nhất** bằng **mutual information**.
+- **Tạo ra đặc trưng mới** trong nhiều bài toán thực tế khác nhau.
+- **Mã hóa các biến phân loại có nhiều giá trị (high-cardinality categoricals)** bằng **target encoding**.
+- **Tạo đặc trưng phân đoạn** bằng **k-means clustering**.
+- **Phân rã phương sai của tập dữ liệu thành các đặc trưng chính** bằng **phân tích thành phần chính (Principal Component Analysis - PCA)**.
 
-- Thiết kế **pipelines** để cải thiện chất lượng mã *machine learning* của bạn,
+Các bài thực hành sẽ dần xây dựng thành một **notebook hoàn chỉnh**:  
+👉 **[Feature Engineering for House Prices](http://www.kaggle.com/ryanholbrook/feature-engineering-for-house-prices)**  
+Notebook này sẽ áp dụng **tất cả các kỹ thuật trên** để tham gia vào cuộc thi **[House Prices Getting Started](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)** trên Kaggle.  
 
-- Sử dụng các kỹ thuật nâng cao để đánh giá mô hình như **cross-validation** (*xác thực chéo*),
+Sau khi hoàn thành khóa học này, bạn sẽ có **nhiều ý tưởng** để **cải thiện hiệu suất mô hình** hơn nữa!
 
-- Xây dựng các mô hình tiên tiến được sử dụng rộng rãi để chiến thắng các cuộc thi Kaggle như **XGBoost**,
-
-- Tránh các lỗi phổ biến và quan trọng trong *data science* như **leakage** (*rò rỉ dữ liệu*).
-
-Trong suốt khóa học, bạn sẽ áp dụng kiến thức của mình thông qua các bài tập thực hành với dữ liệu thực tế. Các bài tập này sử dụng dữ liệu từ cuộc thi [Housing Prices Competition for Kaggle Learn Users](https://www.kaggle.com/c/home-data-for-ml-course), nơi bạn sẽ sử dụng 79 biến giải thích khác nhau (chẳng hạn như kiểu mái nhà, số phòng ngủ, số phòng tắm) để dự đoán giá nhà. Bạn sẽ đo lường tiến độ của mình bằng cách nộp dự đoán vào cuộc thi này và theo dõi thứ hạng của mình trên [bảng xếp hạng](https://www.kaggle.com/c/home-data-for-ml-course/leaderboard)!
-
-**Yêu cầu đầu vào:**
-=======================
-
-- Bạn đã sẵn sàng cho khóa học này nếu bạn đã từng xây dựng một mô hình machine learning trước đây và quen thuộc với các chủ đề như:
-      - [model validation](https://www.kaggle.com/dansbecker/model-validation) (*đánh giá mô hình*),
-      - [underfitting and overfitting](https://www.kaggle.com/dansbecker/underfitting-and-overfitting) (*mô hình chưa đủ khớp và quá khớp*), và
-      - [random forests](https://www.kaggle.com/dansbecker/random-forests) (*rừng ngẫu nhiên*).
-
-- Nếu bạn hoàn toàn mới với *machine learning*, hãy tham khảo khóa học [Intro to Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning), khóa học này sẽ cung cấp tất cả những kiến thức cần thiết để bạn chuẩn bị cho khóa học này.
-
+Bạn đã sẵn sàng chưa? Hãy bắt đầu nào! 🚀
 
 Contents
 ========
 
 .. toctree::
-   :caption: Lecture 1 - Missing Values
+   :caption: Lecture 1 - What is feature engineering
    :maxdepth: 1
 
-   missing-values.ipynb
+   1. what-is-feature-engineering.ipynb
 
 .. toctree::
-   :caption: Lecture 2 - Categorical-Variables
+   :caption: Lecture 2 - Mutual information
    :maxdepth: 1
 
-   categorical-variables.ipynb
+   2. mutual-information.ipynb
 
 .. toctree::
-   :caption: Lecture 3 - Pipelines
+   :caption: Lecture 3 - Creating features
    :maxdepth: 1
 
-   pipelines.ipynb
+   3. creating-features.ipynb
 
 .. toctree::
-   :caption: Lecture 4 - Cross-Validation
+   :caption: Lecture 4 - Clustering with K means
    :maxdepth: 1
 
-   cross-validation.ipynb
+   4. clustering-with-k-means.ipynb
 
 .. toctree::
    :caption: Lecture 5 - XGBoost
