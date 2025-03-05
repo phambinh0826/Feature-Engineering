@@ -47,3 +47,5 @@ highlight_language = 'python3'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+language = 'vi'
