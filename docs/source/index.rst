@@ -62,8 +62,8 @@ Contents
 ========
 .. toctree::
    :caption: Module 1 - Data Visualization
-   :maxdepth: 0
-   
-   Module 1 - Data Visualization/Lecture 1  - Introduction to Visualization Tools/Lecture 1  - Introduction to Visualization Tools.ipynb
-   Module 1 - Data Visualization/Lecture 2 - Basic Visualization Tools/Lecture 2 - Basic Visualization Tools.ipynb
-   Module 1 - Data Visualization/Lecture 3 - Specialized Visualization Tools/Lecture 3 - Specialized Visualization Tools.ipynb
+   :maxdepth: 1  # Hiển thị các bài học mà không mở rộng các mục con
+
+   Lecture 1 - Introduction to Visualization Tools <Module 1 - Data Visualization/Lecture 1 - Introduction to Visualization Tools/Lecture 1 - Introduction to Visualization Tools.ipynb>
+   Lecture 2 - Basic Visualization Tools <Module 1 - Data Visualization/Lecture 2 - Basic Visualization Tools/Lecture 2 - Basic Visualization Tools.ipynb>
+   Lecture 3 - Specialized Visualization Tools <Module 1 - Data Visualization/Lecture 3 - Specialized Visualization Tools/Lecture 3 - Specialized Visualization Tools.ipynb>
