@@ -1,24 +1,54 @@
-**Chào mừng đến với Feature Engineering!**
-==========================================
+**Chào mừng đến với Handbook Machine Learning bằng Python**
+===========================================================
 
-Trong khóa học này, bạn sẽ tìm hiểu về một trong những bước quan trọng nhất trong quá trình xây dựng một mô hình học máy hiệu quả: **Feature Engineering** (Xây dựng đặc trưng).  
+```markdown
+# Giới thiệu về Handbook Machine Learning bằng Python
 
-Bạn sẽ học cách:
+Machine Learning (ML) là một lĩnh vực quan trọng trong khoa học dữ liệu và trí tuệ nhân tạo, giúp khai thác giá trị từ dữ liệu để đưa ra dự đoán và quyết định thông minh. Để hỗ trợ những người quan tâm đến ML có thể học tập một cách hệ thống và thực hành hiệu quả, tôi đã tổng hợp những kiến thức mà mình đã học được vào cuốn **Handbook Machine Learning bằng Python**.
 
-- **Xác định đặc trưng quan trọng nhất** bằng **mutual information**.
-- **Tạo ra đặc trưng mới** trong nhiều bài toán thực tế khác nhau.
-- **Mã hóa các biến phân loại có nhiều giá trị (high-cardinality categoricals)** bằng **target encoding**.
-- **Tạo đặc trưng phân đoạn** bằng **k-means clustering**.
-- **Phân rã phương sai của tập dữ liệu thành các đặc trưng chính** bằng **phân tích thành phần chính (Principal Component Analysis - PCA)**.
+## 📖 Nội dung cuốn Handbook
+Cuốn sách này được xây dựng theo một lộ trình học tập rõ ràng, giúp người đọc từ những bước cơ bản nhất đến việc triển khai các mô hình ML tiên tiến. Các nội dung chính bao gồm:
 
-Các bài thực hành sẽ dần xây dựng thành một **notebook hoàn chỉnh**:
+### 1️⃣ Trực quan hóa dữ liệu
+- Hiểu cách xử lý và biểu diễn dữ liệu bằng các thư viện phổ biến như **Matplotlib**, **Seaborn**, và **Plotly**.
 
-👉 [Feature Engineering for House Prices](http://www.kaggle.com/ryanholbrook/feature-engineering-for-house-prices)
-Notebook này sẽ áp dụng **tất cả các kỹ thuật trên** để tham gia vào cuộc thi [House Prices Getting Started](https://www.kaggle.com/c/house-prices-advanced-regression-techniques) trên Kaggle.  
+### 2️⃣ Tiền xử lý dữ liệu
+- Làm sạch dữ liệu, xử lý giá trị thiếu, mã hóa dữ liệu và chuẩn hóa dữ liệu trước khi đưa vào mô hình ML.
 
-Sau khi hoàn thành khóa học này, bạn sẽ có **nhiều ý tưởng** để **cải thiện hiệu suất mô hình** hơn nữa!
+### 3️⃣ Các mô hình Machine Learning cơ bản
+Giới thiệu các thuật toán **học có giám sát (Supervised Learning)** và **học không giám sát (Unsupervised Learning)**:
+- 🔹 **Hồi quy tuyến tính và hồi quy logistic**
+- 🔹 **Cây quyết định và Random Forest**
+- 🔹 **SVM (Support Vector Machine)**
+- 🔹 **KNN (K-Nearest Neighbors)**
+- 🔹 **Clustering (K-Means, DBSCAN,...)**
 
-Bạn đã sẵn sàng chưa? Hãy bắt đầu nào! 🚀
+### 4️⃣ Kỹ thuật nâng cao
+- **Feature Engineering**: Chọn và tạo đặc trưng (Feature Selection, Feature Extraction).
+- **Xử lý mất cân bằng dữ liệu** với **SMOTE**.
+- **Hyperparameter tuning** với **GridSearchCV** và **RandomizedSearchCV**.
+
+### 5️⃣ Đánh giá mô hình ML
+- Các chỉ số đánh giá: **Accuracy, Precision, Recall, F1-score, ROC-AUC**.
+- **Cross-validation** và phương pháp tránh **overfitting**.
+
+### 6️⃣ Triển khai mô hình vào thực tế
+- **Lưu và tải mô hình ML** bằng **Pickle**.
+- **Tích hợp mô hình vào API** với **Flask** hoặc **FastAPI**.
+
+## 🎯 Đối tượng độc giả
+Cuốn sách này dành cho những ai **đã có kiến thức về Python** và mong muốn học Machine Learning một cách bài bản. Nếu bạn đã quen thuộc với các thư viện như **Pandas, NumPy, Matplotlib**, bạn có thể nhanh chóng tiếp cận nội dung sách và thực hành ngay.
+
+## 🌟 Điểm đặc biệt của Handbook
+✅ **Học từ lý thuyết đến thực hành**: Mỗi phần đều có giải thích lý thuyết kết hợp với ví dụ code cụ thể giúp bạn dễ dàng áp dụng ngay.
+✅ **Cập nhật kiến thức mới nhất**: Các kỹ thuật ML tiên tiến như Feature Engineering, Hyperparameter tuning, và cách triển khai mô hình thực tế đều được đề cập.
+✅ **Dễ tiếp cận**: Không chỉ giới thiệu lý thuyết khô khan, cuốn sách hướng dẫn từng bước giúp bạn xây dựng các mô hình ML hiệu quả nhất.
+
+---
+
+Tôi hy vọng cuốn **Handbook Machine Learning bằng Python** sẽ trở thành tài liệu hữu ích cho những ai đang tìm hiểu và ứng dụng ML vào thực tế. Chúc bạn học tập hiệu quả và khám phá những điều thú vị trong lĩnh vực này! 🚀
+```
+
 
 Contents
 ========
