@@ -22,6 +22,13 @@ Bạn đã sẵn sàng chưa? Hãy bắt đầu nào! 🚀
 
 Contents
 ========
+.. toctree::
+   :caption: Module 1 - Data Visualization
+   :maxdepth: 2
+   
+   docs/source/Module 1 - Data Visualization/Lecture 1  - Introduction to Visualization Tools.ipynb
+   docs/source/Module 1 - Data Visualization/Lecture 2 - Basic Visualization Tools.ipynb
+   docs/source/Module 1 - Data Visualization/Lecture 3 - Specialized Visualization Tools.ipynb
 
 .. toctree::
    :caption: Lecture 1 - What is feature engineering
