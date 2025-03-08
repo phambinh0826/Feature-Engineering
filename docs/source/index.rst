@@ -9,15 +9,15 @@ Machine Learning (ML) là một lĩnh vực quan trọng trong khoa học dữ l
 
 Cuốn sách này được xây dựng theo một lộ trình học tập rõ ràng, giúp người đọc từ những bước cơ bản nhất đến việc triển khai các mô hình ML tiên tiến. Các nội dung chính bao gồm:
 
-1️⃣ Trực quan hóa dữ liệu
+**1️⃣ Trực quan hóa dữ liệu**
 
 - Hiểu cách xử lý và biểu diễn dữ liệu bằng các thư viện phổ biến như **Matplotlib**, **Seaborn**, và **Plotly**.
 
-2️⃣ Tiền xử lý dữ liệu
+**2️⃣ Tiền xử lý dữ liệu**
 
 - Làm sạch dữ liệu, xử lý giá trị thiếu, mã hóa dữ liệu và chuẩn hóa dữ liệu trước khi đưa vào mô hình ML.
 
-3️⃣ Các mô hình Machine Learning cơ bản
+**3️⃣ Các mô hình Machine Learning cơ bản**
 
 Giới thiệu các thuật toán **học có giám sát (Supervised Learning)** và **học không giám sát (Unsupervised Learning)**:
 
@@ -27,23 +27,23 @@ Giới thiệu các thuật toán **học có giám sát (Supervised Learning)**
 - 🔹 **KNN (K-Nearest Neighbors)**
 - 🔹 **Clustering (K-Means, DBSCAN,...)**
 
-4️⃣ Kỹ thuật nâng cao
+**4️⃣ Kỹ thuật nâng cao**
 
 - **Feature Engineering**: Chọn và tạo đặc trưng (Feature Selection, Feature Extraction).
 - **Xử lý mất cân bằng dữ liệu** với **SMOTE**.
 - **Hyperparameter tuning** với **GridSearchCV** và **RandomizedSearchCV**.
 
-5️⃣ Đánh giá mô hình ML
+**5️⃣ Đánh giá mô hình ML**
 
 - Các chỉ số đánh giá: **Accuracy, Precision, Recall, F1-score, ROC-AUC**.
 - **Cross-validation** và phương pháp tránh **overfitting**.
 
-6️⃣ Triển khai mô hình vào thực tế
+**6️⃣ Triển khai mô hình vào thực tế**
 
 - **Lưu và tải mô hình ML** bằng **Pickle**.
 - **Tích hợp mô hình vào API** với **Flask** hoặc **FastAPI**.
 
-🎯 Đối tượng độc giả
+**🎯 Đối tượng độc giả**
 
 Cuốn sách này dành cho những ai **đã có kiến thức về Python** và mong muốn học Machine Learning một cách bài bản. Nếu bạn đã quen thuộc với các thư viện như **Pandas, NumPy, Matplotlib**, bạn có thể nhanh chóng tiếp cận nội dung sách và thực hành ngay.
 
