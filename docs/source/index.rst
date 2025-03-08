@@ -1,8 +1,7 @@
 **Chào mừng đến với Handbook Machine Learning bằng Python**
 ===========================================================
 
-```markdown
-# Giới thiệu về Handbook Machine Learning bằng Python
+**Giới thiệu về Handbook Machine Learning bằng Python**
 
 Machine Learning (ML) là một lĩnh vực quan trọng trong khoa học dữ liệu và trí tuệ nhân tạo, giúp khai thác giá trị từ dữ liệu để đưa ra dự đoán và quyết định thông minh. Để hỗ trợ những người quan tâm đến ML có thể học tập một cách hệ thống và thực hành hiệu quả, tôi đã tổng hợp những kiến thức mà mình đã học được vào cuốn **Handbook Machine Learning bằng Python**.
 
