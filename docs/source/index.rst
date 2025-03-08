@@ -14,6 +14,7 @@ Cuốn sách này được xây dựng theo một lộ trình học tập rõ r�
 - Hiểu cách xử lý và biểu diễn dữ liệu bằng các thư viện phổ biến như **Matplotlib**, **Seaborn**, và **Plotly**.
 
 2️⃣ Tiền xử lý dữ liệu
+
 - Làm sạch dữ liệu, xử lý giá trị thiếu, mã hóa dữ liệu và chuẩn hóa dữ liệu trước khi đưa vào mô hình ML.
 
 3️⃣ Các mô hình Machine Learning cơ bản
