@@ -62,7 +62,7 @@ Contents
 ========
 .. toctree::
    :caption: Module 1 - Data Visualization
-   :maxdepth: 1
+   :maxdepth: 0
    
    Module 1 - Data Visualization/Lecture 1  - Introduction to Visualization Tools/Lecture 1  - Introduction to Visualization Tools.ipynb
    Module 1 - Data Visualization/Lecture 2 - Basic Visualization Tools/Lecture 2 - Basic Visualization Tools.ipynb
