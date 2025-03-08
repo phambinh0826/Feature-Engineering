@@ -21,11 +21,11 @@ Cuốn sách này được xây dựng theo một lộ trình học tập rõ r�
 
 Giới thiệu các thuật toán **học có giám sát (Supervised Learning)** và **học không giám sát (Unsupervised Learning)**:
 
-- 🔹 **Hồi quy tuyến tính và hồi quy logistic**
-- 🔹 **Cây quyết định và Random Forest**
-- 🔹 **SVM (Support Vector Machine)**
-- 🔹 **KNN (K-Nearest Neighbors)**
-- 🔹 **Clustering (K-Means, DBSCAN,...)**
+- **Hồi quy tuyến tính và hồi quy logistic**
+- **Cây quyết định và Random Forest**
+- **SVM (Support Vector Machine)**
+- **KNN (K-Nearest Neighbors)**
+- **Clustering (K-Means, DBSCAN,...)**
 
 **4️⃣ Kỹ thuật nâng cao**
 
