@@ -1,11 +1,8 @@
 # Configuration file for the Sphinx documentation builder.
 import sphinx_rtd_theme
-import os
-print("XeLaTeX path:", os.popen("which xelatex").read().strip())
-print("Latexmk path:", os.popen("which latexmk").read().strip())
 
 # -- Project information
-project = 'Feature Engineering in Machine Learning'
+project = 'Machine Learning With Python'
 copyright = '2025, Bình Phạm'
 author = 'Bình Phạm'
 
@@ -31,40 +28,25 @@ intersphinx_mapping = {
     'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
 }
 
+# Add any paths that contain templates here, relative to this directory.
+# The template links to a custom style css to increase the width of displayed content
 templates_path = ['_templates']
 
 # -- Options for HTML output
-html_static_path = ['_static']
+# -- The theme to use for HTML and HTML Help pages.  See the documentation for a list of builtin themes.
 html_theme = 'sphinx_rtd_theme'
+
+# -- Path to static files
+html_static_path = ['_static']
+
+master_doc = 'index'
+
 highlight_language = 'python3'
+
+nbsphinx_execute_arguments = [
+    "--InlineBackend.figure_formats={'svg', 'pdf'}",
+    "--InlineBackend.rc={'figure.dpi': 96}",
+]
+
+# -- Options for EPUB output
 epub_show_urls = 'footnote'
-
-# Set the language to Vietnamese
-language = 'vi'
-
-# -- Options for LaTeX output
-latex_engine = 'xelatex'
-latex_elements = {
-    'fontpkg': r'''
-\usepackage{fontspec}
-\setmainfont{Times New Roman}
-\setsansfont{Arial}
-\setmonofont{Courier New}
-''',
-    'babel': '',
-    'polyglossia': r'''
-\usepackage{polyglossia}
-\setdefaultlanguage{vietnamese}
-\setotherlanguage{english}
-\newfontfamily\vnfont{Times New Roman}
-\newcommand{\textvn}[1]{{\vnfont #1}}
-''',
-    'preamble': r'''
-\usepackage{titlesec}
-\titleformat{\chapter}[hang]{\Large\bfseries}{\thechapter}{1em}{}
-\usepackage{microtype}
-\renewcommand{\baselinestretch}{1.2}
-\XeTeXlinebreaklocale "vn"
-\XeTeXlinebreakskip = 0pt plus 1pt
-''',
-}
